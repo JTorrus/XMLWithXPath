@@ -16,7 +16,7 @@
             <a href="../xpathqueries/ejercicio_a_2.php">(menu.xml) Descripcion del 4to plato</a>
         </li>
         <li>
-            <a href="../xpathqueries/ejercicio_a_3.php">(menu.xml) Suma de las categorias de todos los platos</a>
+            <a href="../xpathqueries/ejercicio_a_3.php">(menu.xml) Suma de las calorias de todos los platos</a>
         </li>
         <li>
             <a href="../xpathqueries/ejercicio_b_1.php">(bookstore.xml) Libro con id="bk104"</a>
