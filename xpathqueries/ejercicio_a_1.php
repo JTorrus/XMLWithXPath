@@ -1,7 +1,12 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Javier_T
- * Date: 3/12/2018
- * Time: 6:49 AM
- */
+
+$doc = new DOMDocument();
+$doc->load("../xml/menu.xml");
+
+$xpath = new DOMXPath($doc);
+
+$result = $xpath->query("/menu/menjar/nom");
+
+foreach ($result as $node) {
+    echo $node->textContent."<br>";
+}
