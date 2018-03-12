@@ -1,7 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Javier_T
- * Date: 3/12/2018
- * Time: 6:50 AM
- */
+
+$doc = new DOMDocument();
+$doc->load("../xml/rss.xml");
+
+$xpath = new DOMXPath($doc);
+
+$result = $xpath->evaluate("count(//item)");
+
+echo "Hay ". $result. " noticias";
